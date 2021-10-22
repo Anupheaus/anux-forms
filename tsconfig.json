@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "alwaysStrict": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "experimentalDecorators": true,
+    "importHelpers": false,
+    "noEmit": true,
+    "removeComments": true,
+    "noImplicitThis": true,
+    "module": "CommonJS",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "stripInternal": true,
+    "target": "ES6",
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "lib": [
+      "ESNext",
+      "ESNext.Promise",
+      "DOM"
+    ],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./typings"
+    ]
+  }
+}
